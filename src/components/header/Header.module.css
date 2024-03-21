@@ -1,4 +1,33 @@
-.header {
-    font-size: 30px;
+.header_menu {
+    color: #fff;
     font-family: "Messina Sans Mono";
+    font-style: normal;
+    font-weight: 600;
+}
+
+.header_list {
+    text-align: right;
+}
+
+.header_item {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #710c20;
+}
+
+.header_apes_icon {
+    width: 48px;
+    height: 32px;
+}
+
+.header_social_icon {
+    width: 16px;
+    height: 16px;
+    fill: #1E1E1E;
 }
