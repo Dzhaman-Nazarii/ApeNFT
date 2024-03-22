@@ -1,0 +1,64 @@
+.hero_section {
+    position: relative;
+    top: -18px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero_title {
+    color: #1E1E1E;
+    font-family: "Right Grotesk";
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0.44px;
+    text-transform: uppercase;
+}
+
+.hero_text {
+    color: #1E1E1E;
+    font-family: "Biro Script Plus";
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.hero_collection {
+    width: 220px;
+}
+
+.hero_collection_text {
+    color: #1E1E1E;
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.hero_button {
+    color: #1E1E1E;
+    font-family: "Right Grotesk";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    display: flex;
+    width: 216px;
+    padding: 10px 70px 12px 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    background: rgba(30, 30, 30, 0.10);
+    backdrop-filter: blur(6px);
+
+    position: relative;
+    top: -7px;
+    margin-bottom: 12px;
+}
