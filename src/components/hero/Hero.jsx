@@ -1,7 +1,7 @@
 import css from './Hero.module.css'
 
-import heroImage from '../../images/heroImages/hero_ape_mobile-min.png'
-import heroImage2x from '../../images/heroImages/hero_ape_mobile@2x-min.png'
+import heroApeImage from '../../images/heroImages/hero_ape_mobile-min.png'
+import heroApeImage2x from '../../images/heroImages/hero_ape_mobile@2x-min.png'
 
 const Hero = () => {
     return <section className={css.hero_section}>
@@ -11,9 +11,9 @@ const Hero = () => {
         <picture>
         <source
           media="(max-width: 480px)"
-          srcSet={`${heroImage} 1x, ${heroImage2x} 2x`}
+          srcSet={`${heroApeImage} 1x, ${heroApeImage2x} 2x`}
         />
-        <img src={heroImage} alt="Мавпа в окулярах"></img>
+        <img src={heroApeImage} alt="ape"></img>
       </picture>
         <button type='button' className={css.hero_button}>Meet apes</button>
         <div className={css.hero_collection}>

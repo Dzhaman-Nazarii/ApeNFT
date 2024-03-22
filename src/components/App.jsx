@@ -2,6 +2,7 @@ import css from './App.module.css'
 
 import Header from "./header/Header"
 import Hero from "./hero/Hero"
+import About from './about/About'
 
 const App = () => {
   return <>
@@ -9,6 +10,7 @@ const App = () => {
       <Header/>
       <Hero/>
     </div>
+    <About/>
   </>
 }
 

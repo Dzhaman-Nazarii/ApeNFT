@@ -1,0 +1,60 @@
+.about_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.about_content {
+    width: 230px;
+    text-align: center;
+}
+
+.about_title {
+    color: #FFF;
+    font-family: "Right Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.about_title_span {
+    color: #DC3B5A;
+    font-family: "Right Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.about_description_first {
+    color: #FFF;
+    text-align: right;
+    font-family: "Messina Sans Mono";
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.about_description_second {
+    color: #FFF;
+    text-align: center;
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.about_cross {
+    width: 24px;
+    height: 24px;
+}
